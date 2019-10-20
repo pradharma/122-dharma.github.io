@@ -1,0 +1,164 @@
+
+* {
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	margin: 0;
+	background-image: url(body3.jpg);
+	color: white; 
+	background-size: 100% 100%;
+	background-attachment:fixed;
+}
+.header {
+padding : 60px;
+text-align: center;
+color:black;
+width: 100%;
+height: 40%;
+background-image: url(header.png);
+background-position: right bottom,left top;
+display: flex;
+flex:100%;
+font-family: arial;
+}
+.about{
+	padding: 20px;
+	font-family: arial;
+}
+.header h1{
+font-size: 90px;
+}
+.navbar{
+	background-image: url(header.png);
+	background-position: right bottom,left top;
+	display: flex;
+	background-color: #999999;
+	font-family: arial;
+}
+.navbar a {
+	color: white;
+	padding: 10px 20px;
+	text-decoration: none;
+}
+
+.navbar a:hover{
+	background-color: #cfcfcf;
+	color: black;
+	transition : color 0.5s ease;
+}
+.foto{
+	padding: 50px;
+	flex: 30%;
+}
+.bio{
+	padding: 50px;
+	flex: 70%;
+	font-family: : times new roman;
+	font-size: 30px;
+}
+.row{
+display: flex;
+color: white;
+flex-wrap: wrap;
+padding: 20px;
+flex: 100%;
+}
+.table{
+	display: flex;
+	flex: 100%;
+}
+.tableflex1{
+	flex: 30%;
+}
+.tableflex2{
+	flex: 70%;
+	padding: 10px; 
+}
+.footer{
+	text-align: center;
+}
+table {
+	padding-left: 30px;
+}
+table a{
+	color: white;
+}
+@media screen and (max-width: 1300px){
+	.bio{
+		font-size: 20px;
+	}
+	.foto{
+		size: 100% 100%;
+	}
+}
+
+@media screen and (max-width: 900px){
+	.navbar {
+		flex-direction: column;
+	}
+	.bio{
+		font-size: 13px;
+	}
+	.foto{
+		size: 100% 100%;
+	}
+}
+@media screen and (max-width: 720px){
+	.tableflex1 a img{
+		height: 50px;
+		width: 50px;
+	}
+	.tableflex1 a {
+		font-size: 10px;
+	}
+	.bio{
+		padding: 20px;
+		font-size: 13px;
+	}
+	.foto img{file:///C:/Users/zul/Documents/Web%20adit/contact.html#panggil
+		padding: 20px;
+		width:  200px;
+		height: 250px;
+	}
+	.tableflex2 img{
+		height: 200px;
+		width: 
+	}
+}
+@media screen and (max-width: 650px){	
+	.bio{
+		font-size: 11px;
+	}
+	.foto img{
+		width:  200px;
+		height: 250px;
+	}
+	.header h1{
+		font-size: 50px;
+	}
+}
+@media screen and (max-width: 500px){	
+	.bio{
+		font-size: 10px;
+	}
+	.foto img{
+		width:  200px;
+		height: 250px;
+	}
+}
+@media screen and (max-width: 400px){	
+	.bio{
+		padding: 0px;
+		font-size: 10px;
+	}
+	.foto img{
+		padding: 0px;
+		width:  150px;
+		height: 200px;
+	}
+	.header h1{
+		font-size: 45px;
+	}
+}
